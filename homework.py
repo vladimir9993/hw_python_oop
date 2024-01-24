@@ -53,10 +53,6 @@ class Training:
     def show_training_info(self) -> InfoMessage:
         """Вернуть информационное сообщение о выполненной тренировке."""
         return InfoMessage(
-            self.duration,
-            self.distance,
-            self.speed,
-            self.calories,
         )
 
 
