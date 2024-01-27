@@ -24,7 +24,7 @@ class Training:
     """Базовый класс тренировки."""
     LEN_STEP = 0.65
     M_IN_KM = 1000
-    HOUR_IN_MINUTE = 60
+    HOURS_IN_MINUTES = 60
 
     action: int
     duration: float
