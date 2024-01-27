@@ -71,7 +71,7 @@ class Running(Training):
             * self.weight
             / self.M_IN_KM
             * self.duration
-            * self.HOUR_IN_MINUTE
+            * self.HOURS_IN_MINUTES
         )
 
 
@@ -97,7 +97,7 @@ class SportsWalking(Training):
                 * self.CALORIES_MEAN_WALK_SHIFT
                 * self.weight)
                 * self.duration
-                * self.HOUR_IN_MINUTE)
+                * self.HOURS_IN_MINUTES)
 
 
 @dataclass
